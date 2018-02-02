@@ -1,0 +1,6 @@
+framework module Pods_PostComments {
+  umbrella header "Pods-PostComments-umbrella.h"
+
+  export *
+  module * { export * }
+}
