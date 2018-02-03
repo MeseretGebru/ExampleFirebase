@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = NavC
         window?.makeKeyAndVisible()
+        application.statusBarStyle = .lightContent
         return true
     }
 
